@@ -35,7 +35,7 @@ if (config.APP_ENV === 'sandbox') {
                 console.log('[MYSQL] Host trying to disconnect with code PROTOCOL_CONNECTION_LOST. Reconnecting...');
                 connect();
             } else {
-                throw err;
+                console.log('[MYSQL] Error: ', err);
             }
         });
     }
