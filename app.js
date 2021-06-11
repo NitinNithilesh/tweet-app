@@ -17,7 +17,7 @@ app.use(session({
     saveUninitialized: false
 }));
 
-app.listen(config.APP_PORT, () => console.log(`App running on ${config.APP_PORT}`));
+app.listen(process.env.PORT || config.APP_PORT, () => console.log(`App running on ${process.env.PORT || config.APP_PORT}`));
 
 app.set('views', './views');
 app.set('view engine', 'ejs');
