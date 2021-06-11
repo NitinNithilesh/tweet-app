@@ -8,7 +8,7 @@
     "DB": "tweet_app"
   },
   "MYSQL_PROD": {
-    "HOST": "sql475.main-hosting.eu",
+    "HOST": "151.106.124.1",
     "USER": "u363975614_tweet_app",
     "PASSWORD": "sF@|lN:0",
     "DB": "u363975614_tweet_app"
