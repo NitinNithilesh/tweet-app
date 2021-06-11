@@ -1,9 +1,16 @@
 {
-    "APP_PORT": 3000,
-    "MYSQL": {
-        "HOST": "127.0.0.1",
-        "USER": "root",
-        "PASSWORD": "root",
-        "DB": "tweet_app"
-    }
+  "APP_PORT": 3000,
+  "APP_ENV": "production",
+  "MYSQL_SANDBOX": {
+    "HOST": "127.0.0.1",
+    "USER": "root",
+    "PASSWORD": "root",
+    "DB": "tweet_app"
+  },
+  "MYSQL_PROD": {
+    "HOST": "sql475.main-hosting.eu",
+    "USER": "u363975614_tweet_app",
+    "PASSWORD": "sF@|lN:0",
+    "DB": "u363975614_tweet_app"
+  }
 }
